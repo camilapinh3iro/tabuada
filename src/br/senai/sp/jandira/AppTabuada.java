@@ -2,6 +2,7 @@ package br.senai.sp.jandira;
 
 import java.awt.Color;
 import java.awt.Font;
+import java.util.concurrent.ConcurrentHashMap.KeySetView;
 
 import javax.swing.JFrame;
 
@@ -16,12 +17,6 @@ public class AppTabuada {
 		tela.titulo = "Tabuada";
 		tela.largura = 400;
 		tela.altura = 600;
-		tela.corFundoDeTela = new Color(64, 128, 128);
-		tela.corDoTextoDoBotao = new Color(0, 0, 0);
-		tela.corDoBotao = new Color(192, 192, 192);
-		tela.fonteDosLabels = new Font("Arial Black", Font.BOLD, 13);
-		tela.corDoTitulo = new Color(255, 255, 255);
-		tela.corDosLabels = new Color(192, 192, 192);
 		tela.criarTela();
 		
 		

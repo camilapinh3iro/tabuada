@@ -2,7 +2,7 @@ package br.senai.sp.jandira.model;
 
 public class Tabuada {
 
-	public int multiplicador, minMultiplicador, maxMultiplicador;
+	public int multiplicando, minMultiplicador, maxMultiplicador;
 
 	public String[] getTabuada() {
 
@@ -13,8 +13,8 @@ public class Tabuada {
 
 		while (contador < tamanho) {
 
-			int produto = multiplicador * minMultiplicador;
-			String resultado = multiplicador + " X " + minMultiplicador + " = " + produto;
+			int produto = multiplicando * minMultiplicador;
+			String resultado = multiplicando + " X " + minMultiplicador + " = " + produto;
 			tabuada[contador] = resultado;
 
 			contador++;
