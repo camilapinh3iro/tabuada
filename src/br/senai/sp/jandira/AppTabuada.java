@@ -17,19 +17,14 @@ public class AppTabuada {
 		tela.titulo = "Tabuada";
 		tela.largura = 400;
 		tela.altura = 600;
+		tela.fonteDosLabels = new Font("Arial", 2, 12);
+		tela.corDaFonteDescricao = new Color(77, 77, 77);
+		tela.corDoTitulo = new Color(0, 0, 0);
+		tela.corDoBotaoCalcular = new Color(0, 255, 0);
+		tela.corDoBotaoLimpar = new Color(255, 0, 0);
+		tela.corDaLista = new Color(226, 226, 226);
+		tela.corFundoDeTela = new Color(223, 239, 255);
 		tela.criarTela();
-		
-		
-		
-		
-			
-		
-		
-		
-		
-		
-		
-		
 		
 //		Tabuada tabuada = new Tabuada();
 //		tabuada.multiplicador = 5;
@@ -45,8 +40,6 @@ public class AppTabuada {
 //		}
 //		
 //		System.out.println("FIM");
-//		
-
 
 	}
 
